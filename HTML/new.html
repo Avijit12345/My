@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <input type="radio" name="fav_language" value="HTML" id="html" />
+        <label for="html">HTML</label><br />
+        <input type="radio" id="css" name="fav_language" value="CSS" />
+        <label for="css">CSS</label><br />
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript" />
+        <label for="javascript">JavaScript</label>
+      </fieldset>
+      <br />
+      <br />
+      <fieldset>
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat" selected>Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+      </fieldset>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Write</legend>
+        <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea><br />
+        <input type="button" value=" Save" />
+      </fieldset>
+      <br />
+      <br />
+      <label>Browsers:</label>
+      <input list="browsers" />
+      <datalist id="browsers">
+        <option value="Internet Explorer"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+    </form>
+  </body>
+</html>
