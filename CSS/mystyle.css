@@ -26,3 +26,6 @@ body {
   background: no-repeat rgb(15, 120, 129) url("/My/CSS/image.jpeg") top right;
   opacity: 0.8;
 }
+.need {
+  background-color: red;
+}
